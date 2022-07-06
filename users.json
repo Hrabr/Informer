@@ -1,12 +1,12 @@
 {
   "483177614": {
     "banksHashSet": [
-      "NBU",
-      "PRIVATBANK"
+      "PRIVATBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
-      "USD",
-      "RUR"
+      "RUR",
+      "USD"
     ],
     "roundAccuracy": 2,
     "notifyHour": -1
@@ -14,14 +14,14 @@
   "392688915": {
     "name": "AleksakhinAnton",
     "banksHashSet": [
-      "NBU",
       "PRIVATBANK",
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
+      "RUR",
       "USD",
-      "EUR",
-      "RUR"
+      "EUR"
     ],
     "roundAccuracy": 2,
     "notifyHour": -1
@@ -29,14 +29,14 @@
   "635448472": {
     "name": "SkyOgnie",
     "banksHashSet": [
-      "NBU",
       "PRIVATBANK",
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
+      "RUR",
       "USD",
-      "EUR",
-      "RUR"
+      "EUR"
     ],
     "roundAccuracy": 2,
     "notifyHour": 17
@@ -44,14 +44,14 @@
   "765380855": {
     "name": "ternet1978",
     "banksHashSet": [
-      "NBU",
       "PRIVATBANK",
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
+      "RUR",
       "USD",
-      "EUR",
-      "RUR"
+      "EUR"
     ],
     "roundAccuracy": 3,
     "notifyHour": 13
@@ -59,12 +59,13 @@
   "828642831": {
     "name": "An2365",
     "banksHashSet": [
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
+      "RUR",
       "USD",
-      "EUR",
-      "RUR"
+      "EUR"
     ],
     "roundAccuracy": 2,
     "notifyHour": 17
@@ -72,9 +73,9 @@
   "530943899": {
     "name": "Paultych",
     "banksHashSet": [
-      "NBU",
       "PRIVATBANK",
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
       "USD"
@@ -85,14 +86,14 @@
   "442628654": {
     "name": "RiazanovR",
     "banksHashSet": [
-      "NBU",
       "PRIVATBANK",
-      "MONOBANK"
+      "MONOBANK",
+      "NBU"
     ],
     "currenciesHashSet": [
+      "RUR",
       "USD",
-      "EUR",
-      "RUR"
+      "EUR"
     ],
     "roundAccuracy": 3,
     "notifyHour": 13
