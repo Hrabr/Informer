@@ -1,1 +1,1 @@
-worker: java -jar target/*.jar
+worker: java -jar $JAVA_OPTS target/*.jar
