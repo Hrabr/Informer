@@ -1,6 +1,5 @@
 package api.controller;
 
-import api.CashingService;
 import api.Facade;
 import api.bank.BankResponce;
 import api.bank.Banks;
@@ -15,11 +14,13 @@ import utils.keyboards.ReplyKeyboardMarkupMy;
 import utils.user.UserService;
 import utils.user.UserSettings;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 
@@ -30,8 +31,8 @@ public class TelegramImplementations extends TelegramLongPollingBot {
     private final UserService userService;
     Facade facade = new Facade();
 
-    String rootPath = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("application.properties")).getPath();
-    Properties appProps = new Properties();
+//    String rootPath = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("src/main/resources/application.properties")).getPath();
+//    Properties appProps = new Properties();
 
     public TelegramImplementations() {
         userService = UserService.getInstance();
