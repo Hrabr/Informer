@@ -31,8 +31,8 @@ public class TelegramImplementations extends TelegramLongPollingBot {
     private final UserService userService;
     Facade facade = new Facade();
 
-//    String rootPath = Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResource("src/main/resources/application.properties")).getPath();
-//    Properties appProps = new Properties();
+
+
 
     public TelegramImplementations() {
         userService = UserService.getInstance();
