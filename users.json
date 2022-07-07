@@ -1,0 +1,13 @@
+{
+  "828642831": {
+    "name": "An2365",
+    "banksHashSet": [
+      "PRIVATBANK"
+    ],
+    "currenciesHashSet": [
+      "USD"
+    ],
+    "roundAccuracy": 2,
+    "notifyHour": -1
+  }
+}
